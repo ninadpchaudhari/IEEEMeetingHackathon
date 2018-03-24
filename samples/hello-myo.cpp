@@ -129,7 +129,7 @@ public:
 			std::ofstream outfile;
 
 			outfile.open("change.txt", std::ios_base::app);
-			outfile << "Data\n";
+			outfile << pitch_w <<"\n";
 			outfile.close();
 		}
 		else {
